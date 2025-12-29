@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="jakarta.faces.core">
+    <h:head>
+        <title>Jogo de Soma</title>
+    </h:head>
+    <h:body>
+        <h:form id="formularioJogoSoma">
+            <h:panelGrid columns="3">
+                <h:outputLabel value = "Informe seu nome:" />
+                <h:inputText id="nomeUsuario" value = "#{jsfJogo.nome}" />
+
+                <h:commandButton id="btIniciarJogo" value="Ok" 
+                                 action="#{jsfJogo.iniciarJogo}" />
+                <br/>
+                <h:outputText id="validacaoUsuarioEmUso" value="#{jsfJogo.mensagemValidacao}" 
+                              rendered="#{not empty jsfJogo.mensagemValidacao}" />
+            </h:panelGrid>
+        </h:form>
+        
+        <h:form rendered="#{not empty jsfJogo.usuario}" >
+            <h:panelGrid columns="3">
+            <h:outputText id="exibeNumerosSorteados" 
+                          value="Quanto é [#{jsfJogo.obterNumeroA()}] + 
+                          [#{jsfJogo.obterNumeroB()}] ?" />
+            
+            <h:inputText id="respostaNumero" value="#{jsfJogo.resposta}" />
+            <h:commandButton id="btVerificarResposta" value="Verificar" 
+                             action="#{jsfJogo.validar()}" />
+            <br/>
+            </h:panelGrid>
+            <h:outputText value="#{jsfJogo.mensagem}" />
+            <br/><br/>
+        </h:form>
+        
+        <h:panelGroup rendered="#{not empty jsfJogo.ranking}">
+        <h:outputText id="rankinGeral" value=" ==== Ranking Atual: ====" />
+        <br/>
+        <br/>
+        <h:dataTable value="#{jsfJogo.ranking}" var="linha">
+            <h:column>
+                <f:facet name="header">Posicão</f:facet>
+                #{linha}
+            </h:column>
+        </h:dataTable>
+    </h:panelGroup>
+
+    </h:body>
+</html>

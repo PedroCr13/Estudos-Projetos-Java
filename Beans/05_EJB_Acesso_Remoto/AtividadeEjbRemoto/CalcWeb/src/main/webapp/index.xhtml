@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Calculadora</title>
+    </h:head>
+    <h:body>
+        <h:form id="formularioCalculadora">
+            <h:messages globalOnly="true" showDetail="true" showSummary="true" layout="table" />
+            Valor A: 
+            <h:inputText id="numeroA" value="#{calcJSF.numeroA}" required="true"/>
+            <br/>
+            Valor B:
+            <h:inputText id="numeroB" value="#{calcJSF.numeroB}" required="true"/>
+            <br/>
+            <h:commandButton id="btCalcular" value="Calcular" action="#{calcJSF.calcular()}"/>
+            <br/>
+            <h:outputLabel value="Soma:" />
+            <br/>
+            <h:outputText id="resultadoSoma" value="#{calcJSF.resultadoSoma}"/>
+            <br/>
+            <h:outputLabel value="Subração:" />
+            <br/>
+            <h:outputText id="resultadoSubtracao" value="#{calcJSF.resultadoSubtracao}"/>
+            <br/>
+            <h:outputLabel value="Multiplicação:" />
+            <br/>
+            <h:outputText id="resultadoMultiplicacao" value="#{calcJSF.resultadoMultiplicacao}"/>
+            <br/>
+            <h:outputLabel value="Divisão:" />
+            <br/>
+            <h:outputText id="resultadoDivisao" value="#{calcJSF.resultadoDivisao}"/>
+        </h:form>
+    </h:body>
+</html>
