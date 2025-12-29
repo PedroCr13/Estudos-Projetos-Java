@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">SimuladorSalarial</string>
+    <string name="salario_base">Salário Base R$</string>
+    <string name="salario_bruto">Salário Bruto R$ </string>
+    <string name="plano_de_saude">Incluir Plano de Saúde</string>
+    <string name="associacao">Incluir Associação</string>
+    <string name="sindicato">Incluir Sindicato</string>
+    <string name="vale_transporte">Incluir Vale Transporte</string>
+    <string name="dependentes_Imposto_renda">Qtd. Dependentes no IR</string>
+    <string name="contribuicao_previdencia">Contrib. Previdência Complementar. %</string>
+    <string name="digite_salario_base">Salário Base</string>
+    <string name="digite_salario_bruto">Salário Bruto</string>
+    <string name="digite_dep_ir">Qtd. dependentes</string>
+    <string name="digite_contribuicao_prev">Contribuição Previdência</string>
+    <string name="calcular">Calcular Salário</string>
+    <string name="limpar">Limpar Campos</string>
+    <string name="salario_liquido">Salário Liquido</string>
+    <string name="salario_liquido_txt">Salário Liquído</string>
+    <string name="salario_base_invalido">Salário Base inválido! [</string>
+    <string name="salario_bruto_invalido">Salario bruto inválido!</string>
+    <string name="contribuicao_previdencia_invalida">Contribuição Previdencia invalida! [</string>
+    <string name="quantidade_de_dependentes_invalida">Quantidade de dependentes inválida! [</string>
+    <string name="resultado_inss">INSS:</string>
+    <string name="resultado_ir">Imposto de Renda:</string>
+    <string name="resultad_previencia_complementar">Previdência Complementar:</string>
+    <string name="resultado_plano_saude">Mensalidade Plano de Saúde:</string>
+    <string name="resultad_sindicato">Mensalidade Sindicato:</string>
+    <string name="resultado_associacao">Mensalidade Asssociação:</string>
+    <string name="resultado_vt">Vale Transporte:</string>
+    <string name="resultad_base_ir">Base de Cálculo IR:</string>
+    <string name="resultado_fgts">"FGTS: "</string>
+</resources>
