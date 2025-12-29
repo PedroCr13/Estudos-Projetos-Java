@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="postos">
+        <item>@string/posto_ale</item>
+        <item>@string/posto_ipiranga</item>
+        <item>@string/posto_petrobras</item>
+        <item>@string/posto_shell</item>
+        <item>@string/posto_texaco</item>
+    </string-array>
+
+</resources>

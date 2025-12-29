@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Abastecimentos Veiculo</string>
+    <string name="selecione_veiculo">"Veiculo: "</string>
+    <string name="nome_posto">"Posto: "</string>
+    <string name="data_abastecimento">"Data: "</string>
+    <string name="km_atual">"Kilometragem Atual: "</string>
+    <string name="combustivel">"Combustível: "</string>
+    <string name="opcao_gasolina">Gasolina</string>
+    <string name="opcao_etanol">Etanol</string>
+    <string name="valor_total_pago">"Valor Total Pago: "</string>
+    <string name="hint_data_abastecimento">Data do abastecimento.</string>
+    <string name="hint_km_atual">KM Atual.</string>
+    <string name="hint_valor_pago">Valor Pago.</string>
+    <string name="cadastrar_abastecimento">Cadastrar Abastecimento</string>
+    <string name="limpar_campos">Limpar Campos</string>
+    <string name="litros">Litros Abastecidos:</string>
+    <string name="quantidade_litros">"Quantidade de Litros: "</string>
+    <string name="posto_petrobras">Posto Petrobrás</string>
+    <string name="posto_ipiranga">Posto Ipiranga</string>
+    <string name="posto_ale">Posto Ale</string>
+    <string name="posto_shell">Posto Shell</string>
+    <string name="posto_texaco">Posto Texaco</string>
+    <string name="calibrado_pneus">"Calibrado Pneus: "</string>
+    <string name="Gol">VW Gol</string>
+    <string name="Uno">Fiat Uno</string>
+    <string name="os_campos_foram_limpos">Os campos foram limpos!</string>
+    <string name="penus_calibrados">"Penus calibrados: "</string>
+    <string name="pneus_nao_calibrados">Pneus não calibrados</string>
+    <string name="selecione_o_combustivel">Selecione o combustível!</string>
+    <string name="preencha_data_do_abastecimento">Preencha data do abastecimento!</string>
+    <string name="km_atual_invalida">KM atual inválida!</string>
+    <string name="qtd_litros_invalida">Quantidade de litros inválida!</string>
+</resources>

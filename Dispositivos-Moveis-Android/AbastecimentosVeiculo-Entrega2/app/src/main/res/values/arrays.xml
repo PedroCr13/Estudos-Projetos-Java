@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="veiculos">
+        <item>"Gol"</item>
+        <item>"Uno"</item>
+    </string-array>
+
+    <string-array name="postos">
+        <item>@string/posto_ale</item>
+        <item>@string/posto_ipiranga</item>
+        <item>@string/posto_petrobras</item>
+        <item>@string/posto_shell</item>
+        <item>@string/posto_texaco</item>
+    </string-array>
+
+    <string-array name="abastecimento_data">
+        <item>"28/02/2025"</item>
+        <item>"01/03/2025"</item>
+        <item>"02/03/2025"</item>
+        <item>"03/03/2025"</item>
+        <item>"04/03/2025"</item>
+        <item>"05/03/2025"</item>
+        <item>"06/03/2025"</item>
+        <item>"07/03/2025"</item>
+        <item>"08/03/2025"</item>
+        <item>"09/03/2025"</item>
+    </string-array>
+
+    <integer-array name="abastecimento_veiculo">
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </integer-array>
+
+    <integer-array name="abastecimento_postos">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+
+    <integer-array name="abastecimento_kmatual">
+        <item>10000</item>
+        <item>10800</item>
+        <item>25000</item>
+        <item>11000</item>
+        <item>25630</item>
+        <item>11500</item>
+        <item>11900</item>
+        <item>25900</item>
+        <item>26300</item>
+        <item>26600</item>
+    </integer-array>
+
+    <integer-array name="abastecimento_combustivel">
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+    </integer-array>
+
+    <integer-array name="abastecimento_qtdLitros">
+        <item>50</item>
+        <item>40</item>
+        <item>35</item>
+        <item>40</item>
+        <item>30</item>
+        <item>45</item>
+        <item>30</item>
+        <item>50</item>
+        <item>55</item>
+        <item>48</item>
+    </integer-array>
+
+    <integer-array name="abastecimento_valorpago">
+        <item>300</item>
+        <item>240</item>
+        <item>210</item>
+        <item>240</item>
+        <item>180</item>
+        <item>270</item>
+        <item>180</item>
+        <item>300</item>
+        <item>330</item>
+        <item>288</item>
+    </integer-array>>
+
+    <integer-array name="abastecimento_calibrou_pneus">
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+
+</resources>
