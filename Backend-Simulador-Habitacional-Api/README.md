@@ -12,6 +12,7 @@
 API REST desenvolvida em **Java** com **Spring Boot Framework**, com foco em **simulação de crédito habitacional**
 utilizando os sistemas de amortização SAC e PRICE, como atividade em desafio de hackathon
 O projeto permite empacotar em **Docker** para facilitar o deploy em qualquer ambiente.
+Por questões de segurança as credenciais e URLs de banco de dados e serviços foram removidos.
 
 ---
 
@@ -32,6 +33,11 @@ A API recebe dados via JSON, consulta parâmetros em um banco **SQL Server** na 
 
 ---
 
+## Segurança
+
+Por questões de segurança, todas as credenciais sensíveis, como usuários, senhas, URLs de banco de dados e chaves de serviços externos (ex.: Azure EventHub), foram removidas deste repositório.
+
+
 ## Funcionalidades
 
 - Simulação de financiamento pelo método Price.
@@ -44,23 +50,21 @@ A API recebe dados via JSON, consulta parâmetros em um banco **SQL Server** na 
 # Organização do Projeto
 
 src/main/java/com/pedrocr13/simuladorhabitacional/
-│
-├── config/                  # Configurações de banco (SQL Server, H2)
-├── controller/              # Endpoints REST da API
-├── entity/                  # Entidades JPA que representam os modelos de dados
-├── repository/              # Interfaces de acesso ao banco (Spring Data JPA)
-│   ├── h2/                  # Repositórios específicos para H2
-│   └── sqlserver/           # Repositórios específicos para SQL Server
-├── service/                 # Regras de negócio e lógica de simulação (Price e SAC)
-│
-├── dto/                     # Objetos de transferência de dados
-├── enums/                   # Enumerações utilizadas no sistema
-├── exceptions/              # Tratamento de exceções customizadas
-├── mapper/                  # Conversão entre entidades e DTOs
-├── monitoring/              # Monitoramento e métricas da aplicação
-├── integration/azure/       # Integração com Azure EventHub 
-│
-└── BackendSimuladorApiApplication.java  # Classe principal da aplicação
+
+config/                  # Configurações de banco (SQL Server, H2)
+controller/              # Endpoints REST da API
+entity/                  # Entidades JPA que representam os modelos de dados
+repository/              # Interfaces de acesso ao banco (Spring Data JPA)
+h2/                      # Repositórios específicos para H2
+sqlserver/               # Repositórios específicos para SQL Server
+service/                 # Regras de negócio e lógica de simulação (Price e SAC)
+dto/                     # Objetos de transferência de dados
+enums/                   # Enumerações utilizadas no sistema
+exceptions/              # Tratamento de exceções customizadas
+mapper/                  # Conversão entre entidades e DTOs
+monitoring/              # Monitoramento e métricas da aplicação
+integration/azure/       # Integração com Azure EventHub 
+BackendSimuladorApiApplication.java  # Classe principal da aplicação
 
 ## Endpoints disponíveis
 
