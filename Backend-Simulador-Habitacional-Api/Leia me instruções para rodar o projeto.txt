@@ -1,0 +1,69 @@
+Backend Simulador API 
+
+API desenvolvida em Java utilizando Spring-Boot-Framework com foco em simulação de crédito
+Permite empacotar em Docker para facilitar o deploy em qualquer ambiente.
+
+Utilizado IDE Eclise 2025-03 (4.35.0) 
+
+#Endpoints disponíveis:
+
+#POST/api/simular
+Recebe um JSON contendo valorSolicaido e prazo 
+Retorna um JSON contendo dados da simulacao e calculo das parcelas PRICE e SAC
+ 
+#GET/api/listar_todas_simulacoes
+Retona um JSON contendo as simulacoes salvas no BD local 
+
+#GET/api/simulacoes_data
+Retorna um JSON com a lista das simulacoes realizadas agrupando os produtos por data de referencia. 
+
+#GET/api/listar_produtos
+Retorna os produtos cadastrados no SQLServer
+
+#GET/relatorio
+Retorna dados de monitoramento da API.
+
+# Como rodar o projeto
+
+# 1. Instale as ferramentas necessárias
+
+# Maven
+
+- Gerenciador de dependências e build do projeto
+- Baixe aqui: https://maven.apache.org/download.cgi](https://maven.apache.org/download.cgi
+- Será baixado um ZIP poderá extrair ele na C:\ ou arquivos de programas.
+- Adicionar o caminho na PATH das variáveis de ambiente do Windows
+
+> Após instalar, verifique com "mvn -v" no terminal
+
+# Docker
+
+- Usado para empacotar e rodar a API em container
+- Baixe aqui: https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop
+
+> Após instalar, abre o terminal e verifique com "docker -v" e abra o Docker Desktop
+
+# 3 Compilar o projeto
+
+Antes de compilar o projeto, certifique-se de que as dependências estão atualizadas. 
+
+no terminal> mvn clean install
+
+
+# 4. Gerar o .jar da aplicação
+
+mvn clean install
+
+no terminal navegue até o diretório raiz do projeto de: "mvn clean package -DskipTests"
+
+# 5. Criar a imagem Docker
+
+No terminal navegue até o diretório raiz do projeto e execute "docker build -t backend-simulador-api ."
+
+#4. Rodar o container
+
+No terminal: "docker run -p 8080:8080 -v h2data:/data backend-simulador-api"
+
+
+
+
