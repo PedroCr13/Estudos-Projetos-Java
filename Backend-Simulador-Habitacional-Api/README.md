@@ -49,22 +49,21 @@ Por questões de segurança, todas as credenciais sensíveis, como usuários, se
 
 # Organização do Projeto
 
-src/main/java/com/pedrocr13/simuladorhabitacional/
-
-config/                  # Configurações de banco (SQL Server, H2)
-controller/              # Endpoints REST da API
-entity/                  # Entidades JPA que representam os modelos de dados
-repository/              # Interfaces de acesso ao banco (Spring Data JPA)
-h2/                      # Repositórios específicos para H2
-sqlserver/               # Repositórios específicos para SQL Server
-service/                 # Regras de negócio e lógica de simulação (Price e SAC)
-dto/                     # Objetos de transferência de dados
-enums/                   # Enumerações utilizadas no sistema
-exceptions/              # Tratamento de exceções customizadas
-mapper/                  # Conversão entre entidades e DTOs
-monitoring/              # Monitoramento e métricas da aplicação
-integration/azure/       # Integração com Azure EventHub 
-BackendSimuladorApiApplication.java  # Classe principal da aplicação
+- src/main/java/com/pedrocr13/simuladorhabitacional/
+- config/                  # Configurações de banco (SQL Server, H2)
+- controller/              # Endpoints REST da API
+- entity/                  # Entidades JPA que representam os modelos de dados
+- repository/              # Interfaces de acesso ao banco (Spring Data JPA)
+- h2/                      # Repositórios específicos para H2
+- sqlserver/               # Repositórios específicos para SQL Server
+- service/                 # Regras de negócio e lógica de simulação (Price e SAC)
+- dto/                     # Objetos de transferência de dados
+- enums/                   # Enumerações utilizadas no sistema
+- exceptions/              # Tratamento de exceções customizadas
+- mapper/                  # Conversão entre entidades e DTOs
+- monitoring/              # Monitoramento e métricas da aplicação
+- integration/azure/       # Integração com Azure EventHub 
+- BackendSimuladorApiApplication.java  # Classe principal da aplicação
 
 ## Endpoints disponíveis
 
