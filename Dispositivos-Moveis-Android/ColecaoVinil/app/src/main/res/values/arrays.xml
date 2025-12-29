@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="tipos">
+        <item>@string/aluno</item>
+        <item>@string/monitor</item>
+        <item>@string/tutor</item>
+        <item>@string/professor</item>
+        <item>@string/coordenador</item>
+    </string-array>
+
+    <string-array name="pessoas_nome">
+        <item>João silva</item>
+        <item>Maria de Souza</item>
+        <item>Pedro Feitosa</item>
+        <item>Lucas Bandeira</item>
+        <item>Victor Bragança</item>
+        <item>Ana Julia Santos</item>
+        <item>Julia Almeida</item>
+        <item>Alexandre Azevedo</item>
+        <item>Silvia Campos Correa</item>
+        <item>Marcio Rocha</item>
+    </string-array>>
+
+    <integer-array name="pessoas_media">
+        <item>75</item>
+        <item>50</item>
+        <item>85</item>
+        <item>89</item>
+        <item>20</item>
+        <item>30</item>
+        <item>100</item>
+        <item>79</item>
+        <item>83</item>
+        <item>12</item>
+    </integer-array>
+
+    <integer-array name="pessoas_bolsistas">
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+
+    <integer-array name="pessoas_tipos">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>0</item>
+        <item>1</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>0</item>
+    </integer-array>
+
+    <integer-array name="pessoas_maos_usadas">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+    </integer-array>
+</resources>
