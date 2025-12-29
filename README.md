@@ -1,3 +1,9 @@
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 # Estudos-Projetos-Java
 
 Este repositório reúne meus **projetos públicos** e **atividades práticas** desenvolvidas durante o curso de **Pós-Graduação em Java da UTFPR**, além de exercícios e estudos complementares.  
