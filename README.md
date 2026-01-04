@@ -107,8 +107,7 @@ Para contribuir:
 
 ## Licença
 
-Este repositório é de caráter **educacional** e está sob a licença MIT.  
-Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este repositório é de caráter **educacional**  
 
 ## Autor
 Pedro Cristovão Lopes Fogaça
