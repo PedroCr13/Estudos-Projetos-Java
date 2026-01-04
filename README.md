@@ -11,6 +11,31 @@ O objetivo é centralizar e documentar a evolução dos aprendizados em **Java**
 
 ---
 
+## ⭐ Projetos em Destaque
+
+### Simulador Habitacional – API REST (Spring Boot)
+API REST desenvolvida em **Java com Spring Boot** para simulação de crédito habitacional.
+
+**Destaques:**
+- Arquitetura REST
+- Regras de negócio para simulação de crédito
+- Organização em camadas (Controller, Service, Repository)
+- Projeto acadêmico com foco em backend
+
+👉 [Acessar o projeto](./Backend-Simulador-Habitacional-Api)
+
+### Sistema Cliente/Servidor – Seção Eleitoral (Redes)
+Projeto desenvolvido na disciplina de **Redes**, composto por:
+- uma **servidor**
+- um **formulário desktop cliente** para envio de dados de uma seção eleitoral
+
+**Destaques:**
+- Comunicação cliente/servidor
+- Envio de dados via rede
+- Projeto prático com foco em protocolos e comunicação
+
+👉 [Acessar o projeto](./Rede/Aula%208%20RMI1/VotacaoRMI)
+
 ## Estrutura do Repositório
 
 Atualmente, o repositório está organizado da seguinte forma:
