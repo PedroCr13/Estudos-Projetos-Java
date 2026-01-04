@@ -32,20 +32,28 @@ O projeto único é composto por:
 - Exibição de resultados parciais e finais
 - Tratamento de erros e exceções
 
-![Cadastro de Candidato](./screenshots/1-cadastro-candidato.png)
-![Registro de votos do Candidato](./screenshots/2-Registro-votos-candidato.png)
-![Confirmação envio de votos](./screenshots/3-Confirmacao-cadastro-votos.png)
-![Exemplo validação campo](./screenshots/4-Validacao-qtd-votos.png)
-![Exibição apuração Servidor](./screenshots/5-Log-Servidor.png)
-
----
-
 ## 🛠️ Tecnologias Utilizadas
 
 - Java
 - Java RMI (UnicastRemoteObject)
 - NetBeans IDE
 - Conceitos de Redes e Comunicação Cliente/Servidor
+
+---
+
+<img src="./screenshots/1-cadastro-candidato.png" width="800" />
+<br><br>
+
+<img src="./screenshots/2-Registro-votos-candidato.png" width="800" />
+<br><br>
+
+<img src="./screenshots/3-Confirmacao-cadastro-votos.png" width="800" />
+<br><br>
+
+<img src="./screenshots/4-Validacao-qtd-votos.png" width="800" />
+<br><br>
+
+<img src="./screenshots/5-Log-Servidor.png" width="800" />
 
 ---
 
