@@ -41,19 +41,19 @@ O projeto único é composto por:
 
 ---
 
-<img src="./screenshots/1-cadastro-candidato.png" width="400" />
+<img src="./screenshots/1-cadastro-candidato.png" width="300" />
 <br><br>
 
-<img src="./screenshots/2-Registro-votos-candidato.png" width="400" />
+<img src="./screenshots/2-Registro-votos-candidato.png" width="300" />
 <br><br>
 
-<img src="./screenshots/3-Confirmacao-cadastro-votos.png" width="400" />
+<img src="./screenshots/3-Confirmacao-cadastro-votos.png" width="300" />
 <br><br>
 
-<img src="./screenshots/4-Validacao-qtd-votos.png" width="400" />
+<img src="./screenshots/4-Validacao-qtd-votos.png" width="300" />
 <br><br>
 
-<img src="./screenshots/5-Log-Servidor.png" width="400" />
+<img src="./screenshots/5-Log-Servidor.png" width="300" />
 
 ---
 
