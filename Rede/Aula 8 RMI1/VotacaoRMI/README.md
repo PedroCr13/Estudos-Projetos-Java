@@ -46,14 +46,18 @@ O projeto único é composto por:
 ## ▶️ Como Executar
 
 1. Clone o repositório:
-```bash
-git clone https://github.com/seu-usuario/projeto-redes-votacao.git
+    ```bash
+    git clone https://github.com/PedroCr13/Estudos-Projetos-Java.git
 
-2. Abra o projeto no NetBeans e poderá clicar com botão direito sobre a classe Servidor e selecinar Run File ou Shift + F6,
+2. Navegue até a pasta do projeto:
+    ```bash
+    cd "Estudos-Projetos-Java/Rede/Aula 8 RMI1/VotacaoRMI/"
 
-3. Clicar com o botão direito sobre a classe frmCliente e selecinar Run File ou Shift + F6, cadastrar candidatos, votos e enviar
+3. Abra o projeto no NetBeans e poderá clicar com botão direito sobre a classe Servidor e selecinar Run File ou Shift + F6,
 
-4. Acompanhar a apuração dos votos pelo console na aba Servidor.
+4. Clicar com o botão direito sobre a classe frmCliente e selecinar Run File ou Shift + F6, cadastrar candidatos, votos e enviar
+
+5. Acompanhar a apuração dos votos pelo console na aba Servidor.
 
 👤 Autor
 
