@@ -33,7 +33,11 @@ Permite ao usuário configurar diferentes variáveis que impactam no rendimento 
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/simulador-salario-liquido.git
+   git clone https://github.com/PedroCr13/Estudos-Projetos-Java.git
+
+2. Navegue até a pasta:
+   ```bash
+   cd Estudos-Projetos-Java/Dispositivos-Moveis-Android/SimuladorSalarial
 
 ## Autor
 

@@ -26,7 +26,7 @@ API REST desenvolvida em **Java com Spring Boot** para simulação de crédito h
 
 ### Sistema Cliente/Servidor – Seção Eleitoral (Redes)
 Projeto desenvolvido na disciplina de **Redes**, composto por:
-- uma **servidor**
+- um **servidor**
 - um **formulário desktop cliente** para envio de dados de uma seção eleitoral
 
 **Destaques:**
@@ -111,5 +111,4 @@ Este repositório é de caráter **educacional** e está sob a licença MIT.
 Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ## Autor
-
 Pedro Cristovão Lopes Fogaça
