@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="preto">#FF000000</color>
+    <color name="branco">#FFFFFFFF</color>
+    <color name="azul_claro">#00BCD4</color>
+    <color name="azul_escuro">#003CD4</color>
+    <color name="verde">#92D943</color>
+    <color name="cinza_escuro">#AAAAAA</color>
+    <color name="amarelo">#F6E323</color>
+    <color name="ic_launcher_abastecimento_background">#3DDCBC</color>
+    <color name="cinza_transparente">#c8808080</color>
+    <color name="azul_transparente">#C4A1D5ED</color>
+</resources>
