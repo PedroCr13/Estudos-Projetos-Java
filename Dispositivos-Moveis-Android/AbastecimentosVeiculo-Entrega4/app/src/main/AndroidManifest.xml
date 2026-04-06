@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_abastecimento"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_abastecimento_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ThemeStyleIcons"
+        tools:targetApi="36">
+        <activity
+            android:name=".SobreActivity"
+            android:exported="false"
+            android:parentActivityName=".AbastecimentosActivity" />
+        <activity
+            android:name=".AbastecimentosActivity"
+            android:exported="true"
+            android:launchMode="singleTask" > <!-- quando retornar (botão up) não cria nova instancia -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <!-- esta activity vai ter o ícone para iniciar -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AbastecimentoActivity"
+            android:exported="false"
+            android:parentActivityName=".AbastecimentosActivity">
+        </activity>
+    </application>
+
+</manifest>
