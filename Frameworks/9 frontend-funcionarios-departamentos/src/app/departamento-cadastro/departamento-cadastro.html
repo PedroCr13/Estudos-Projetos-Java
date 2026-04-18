@@ -1,0 +1,31 @@
+<div class="container">
+  <form autocomplete="off" #departamentoForm="ngForm" (ngSubmit)="salvar(departamentoForm)">
+
+    <div class="grid">
+
+      <div class="col-12">
+        <h1>Novo Departamento</h1>
+      </div>
+
+      <div class="col-12 md:col-12 field flex flex-column gap-2">
+        <label>Nome do Departamento</label>
+        <input pInputText type="text" name="nomeDepartamento"
+        [(ngModel)]="departamento.nome" required minlength="2" #nome="ngModel">
+
+        <div *ngIf="nome.hasError('required') && nome.dirty" style="color: red">
+          Informe um nome do departamento.
+        </div>
+        <div *ngIf="nome.hasError('minlength') && nome.dirty" style="color: red">
+          O nome do departamento deve ter no minimo {{ nome.errors?.['minlength'].requiredLength }} caracteres.
+        </div>
+      </div>
+
+      <div class="col-12">
+        <button pButton type="submit" label="Salvar" [disabled]="!departamentoForm.valid" ></button>
+        <button pButton type="button" label="Novo" class="p-button-warning"></button>
+        <a href="javascript:;">Voltar para a pesquisa</a>
+      </div>
+    </div>
+
+  </form>
+</div>

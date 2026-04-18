@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffa31a
+}
+
+label {
+  font-weight: bold;
+}
+
+/* quando a tela for menor ou reduzir coloca componentes um sobre o outro */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+    margin: 0 auto
+  }
+}
+
+.col-id {
+  width: 120px;
+  text-align: center;
+}
+
+.col-acoes {
+  width: 150px;
+  text-align: center;
+  padding: 0px;
+}
+
+.col-acoes .p-button {
+  margin: 1px;
+}

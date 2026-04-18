@@ -1,0 +1,8 @@
+/* comentando será usada a cor que o primeNg fornece
+input.ng-invalid.ng-touched ,select.ng-invalid.ng-touched {
+  border: 1px solid red;
+}
+*/
+.p-button {
+  margin: .25em;
+}
