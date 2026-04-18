@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Exemplo usando Java Script</title>
+
+        <script>
+            function alterarTexto() {
+                document.getElementById("mensagem").innerHTML = "Olá, aluno da turma de Java!";
+                console.log('Exibindo mensagem de console')
+            }
+        </script>
+    </head>
+    <body>
+        <h1 id="mensagem">Clique no botão para alterar este texto</h1>
+        <button onclick="alterarTexto()">Clique aqui</button>   
+    </body>
+</html>
